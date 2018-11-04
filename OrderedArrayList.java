@@ -10,7 +10,7 @@ public class OrderedArrayList<T extends Comparable<T>> extends NoNullArrayList<T
 				return i;
 			}
 		}
-		return index;
+		return 0;
 	}
 	public void add(int index, T item) {
 		add(item);
